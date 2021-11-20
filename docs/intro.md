@@ -2,34 +2,15 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Habitat in less than 5 minutes**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+- Explore the **[habitat](https://0xhabitat.org)**.
+- Experience the **[app](https://0xhabitat.org/app)**.
+- Use the **[docs](https://docs.0xhabitat.org)**.
+- Join the **[discord](https://discord.gg/4Cu6vBZhDp)**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
