@@ -1,4 +1,4 @@
-# **Habitat Rollup** 🌈
+# Habitat Rollup 🌈
 
 ## **Mainnet App**
 https://0xhabitat.org/app/
