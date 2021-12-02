@@ -67,6 +67,6 @@ https://github.com/0x-vic
 
 ## 📡 **Token Distribution**
 
-The overview shows a detailed distribution of the HBT token, the process will be facilitated by pre-deployed [Droplet Contracts](droplets.md), which drip the 0.5% over a fixed period of time towards the assigned wallets and contracts.
+The overview shows a detailed distribution of the HBT token, the process will be facilitated by pre-deployed [Droplet Contracts](Droplets.md), which drip the 0.5% over a fixed period of time towards the assigned wallets and contracts.
 
 ![economics](/economics.jpg)
