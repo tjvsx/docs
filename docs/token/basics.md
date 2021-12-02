@@ -1,4 +1,9 @@
-# **Token Basics** 📊 
+---
+sidebar_position: 1
+title: 'Basics'
+---
+
+# Token Basics 📊 
 
 ##### **Habitat is the first rollup that is governed and grown by its people and their communities.**
 

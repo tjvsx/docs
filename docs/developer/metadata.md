@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+title: 'Metadata'
+---
+
 # Metadata
 
 Some Habitat transaction types include a `bytes metadata` argument, this is usually a [**raw - without header** deflated](https://en.wikipedia.org/wiki/Deflate) json string.

@@ -1,4 +1,9 @@
-# **Gas Tank** ⛽
+---
+sidebar_position: 2
+title: 'Gas Tank'
+---
+
+# Gas Tank ⛽
 To secure the network and all the user and community funds the Habitat rollup needs Gas to operate. Like a pre-paid phone the user tops up its balance to interact with all features, modules and functionalities. A 1% top-up fee is taken and distributed among all HBT stakers/deposits.
 
 > Rollup Balance and Gas Balance are two different components/metrics.

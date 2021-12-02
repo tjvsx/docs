@@ -53,7 +53,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/0xhabitat/habitat',
+            href: 'https://github.com/0xhabitat',
             label: 'GitHub',
             position: 'right',
           },

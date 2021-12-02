@@ -1,3 +1,8 @@
+---
+sidebar_position: 5
+title: 'Quickstart'
+---
+
 # Quickstart
 
 Most things may look similiar but some things (especially) signing transactions works differently.

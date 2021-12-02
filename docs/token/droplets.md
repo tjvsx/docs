@@ -1,4 +1,9 @@
-# **Droplets** 💧 
+---
+sidebar_position: 2
+title: 'Droplets'
+---
+
+# Droplets 💧 
 #### **HBT Distribution Plan**
 * http://bit.ly/HBT-distribution
 

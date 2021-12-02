@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+title: 'App'
+---
+
 # Habitat Rollup 🌈
 
 ## **Mainnet App**

@@ -1,17 +1,28 @@
 ---
 sidebar_position: 1
+title: 'Start'
 ---
 
-# Intro
+# Habitat Docs 🌱
+__
+## **Channels** 📣
+* **Website** // https://0xhabitat.org/
+* **GitHub** // https://github.com/0xHabitat
+* **Twitter** // https://twitter.com/0xHabitat
+* **Blog** // https://0xhabitat.substack.com/
+* **Discord Server** // https://discord.gg/4Cu6vBZhDp
+* **Habitat DAO China** // https://t.me/Habitat_China
 
-Let's discover **Habitat in less than 5 minutes**.
+## **Mainnet App** 🌈
+--> https://0xhabitat.org/app
 
-## Getting Started
+#### **Communities**
+https://0xhabitat.org/app/#habitat-communities
 
-- Explore the **[habitat](https://0xhabitat.org)**.
-- Experience the **[app](https://0xhabitat.org/app)**.
-- Open an **[account](https://0xhabitat.org/app/#habitat-account)**.
-- Use the **[docs](https://docs.0xhabitat.org)**.
-- Join the **[discord](https://discord.gg/4Cu6vBZhDp)**.
+#### **Account Page**
+https://0xhabitat.org/app/#habitat-account
 
+## **One Pager**
+[![0xHabitat__onepager](https://user-images.githubusercontent.com/45236782/132473382-bc942651-d1ae-4a09-88ec-d6a5a1c1c8c6.png)](https://user-images.githubusercontent.com/45236782/132473382-bc942651-d1ae-4a09-88ec-d6a5a1c1c8c6.png)
 
+![banner](/banner.png)

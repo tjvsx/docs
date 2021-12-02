@@ -1,4 +1,9 @@
-# **Rollup Economy v1** 🧮
+---
+sidebar_position: 2
+title: 'Economy'
+---
+
+# Rollup Economy v1 🧮
 ##### **Staking and utility of HBT tokens inside the Habitat Rollup**
 
 The Habitat ecosystem is build to assure high security of user funds and to incentivize participation to grow the Habitat.

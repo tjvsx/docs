@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+title: 'Modules'
+---
+
 # Modules
 
 Modules on Habitat must be deployed on Ethereum and must conform to an [interface](https://github.com/0xHabitat/habitat/blob/ca68c05614a7b74c48bfd5b5d2d7c11f7d21bf16/src/rollup/contracts/IModule.sol#L5) as well to a restricted set of EVM opcodes (no contract calls, events or storage).

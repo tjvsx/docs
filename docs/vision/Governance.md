@@ -1,4 +1,9 @@
-# **Rollup Governance v1** 🏛️
+---
+sidebar_position: 3
+title: 'Governance'
+---
+
+# Rollup Governance v1 🏛️
 
 The Habitat Rollup is governed and upgraded by the HBT token-holders. This includes technical upgrades, as well as fee structures and incentives. The initial first version (v1) of the Rollup Governance will help the Habitat community to propose, vote and implement changes to the shared infrastructure.
 

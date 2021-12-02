@@ -1,4 +1,9 @@
-# **Feature Farm v1** 🌱
+---
+sidebar_position: 1
+title: 'Feature Farm'
+---
+
+# Feature Farm v1 🌱
 
 ## **The Future of User Participation** 🐚
 With DeFi & DAOs the Ethereum space is exploring new designs of decentralized organizations. Unfortunately, current solutions suffer from low participation rates, binary “yes or no” decision making, or top-down proposal creation. Builders and new ideas are popping up but are missing a platform to collaborate.

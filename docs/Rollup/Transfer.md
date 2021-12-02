@@ -1,4 +1,9 @@
-# **Transfer** 📡
+---
+sidebar_position: 7
+title: 'Transfer'
+---
+
+# Transfer 📡
 
 When Users choose the option "Transfer", they cans end funds across the rollup to other users, communities or vaults.
 

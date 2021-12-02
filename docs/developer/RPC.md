@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+title: 'RPC'
+---
+
 # RPC
 
 Habitat is compatible with the Ethereum JSON-RPC interface with some exceptions and extensions clarified here.

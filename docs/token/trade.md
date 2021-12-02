@@ -1,4 +1,9 @@
-# **Trade & LP Habitat Token** 💹 
+---
+sidebar_position: 3
+title: 'Trade'
+---
+
+# Trade & LP Habitat Token 💹 
 
 ____
 

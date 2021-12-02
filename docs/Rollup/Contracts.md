@@ -1,4 +1,9 @@
-# **Contracts v1** 📋
+---
+sidebar_position: 4
+title: 'Contracts'
+---
+
+# Contracts v1 📋
 
 #### **MultiCallHelper**
 https://etherscan.io/address/0xBBb3d2Ea97D2859eA391aBEb691DfD23192B1ded

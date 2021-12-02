@@ -1,4 +1,9 @@
-# **Rollup Yield** ✨
+---
+sidebar_position: 8
+title: 'Yield'
+---
+
+# Rollup Yield ✨
 ![img](/yield.png)
 
 The Habitat rollup is generating profits based on the **activity and usage of the network**. These profits are fairly distributed among all users and their individual amount of deposited HBT tokens on the rollup.

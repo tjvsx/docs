@@ -1,4 +1,9 @@
-# **Leave the Habitat Rollup** 🛫
+---
+sidebar_position: 6
+title: 'Exit'
+---
+
+# Leave the Habitat Rollup 🛫
 
 #### **Request Withdrawal**
 Users can request to leave the rollup when choosing the option "Withdraw":
