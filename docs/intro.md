@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: 'Start'
+slug: /
 ---
 
 # Habitat Docs 🌱

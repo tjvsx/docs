@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Join the Habitat 🏕',
-  tagline: '🎨 A New Design Space for Decentralized Organizations',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '',
+  tagline: '',
+  url: '',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,9 +22,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/0xhabitat/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -98,7 +99,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Habitat`,
       },
       prism: {
         theme: lightCodeTheme,
