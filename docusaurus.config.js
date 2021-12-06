@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Habitat Docs',
-  tagline: '',
-  url: 'https://docs.0xhabitat.org/',
+  tagline: 'Scaling communities with Rollup technology',
+  url: 'https://docs.0xhabitat.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -107,6 +107,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: 'https://0xhabitat.org/lib/assets/preview-v2.jpg',
     }),
 };
 
