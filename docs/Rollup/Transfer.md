@@ -11,4 +11,4 @@ When Users choose the option "Transfer", they cans end funds across the rollup t
 2. Select the token you want to transfer
 3. Enter the address or username in the input field "To"
 
-![img](/transfer.png)
+![img](img/transfer.png)

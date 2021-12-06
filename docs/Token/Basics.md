@@ -3,13 +3,13 @@ sidebar_position: 1
 title: 'Basics'
 ---
 
-# Token Basics 📊 
+# Token Basics 📊
 
 ##### **Habitat is the first rollup that is governed and grown by its people and their communities.**
 
 Therefore, the HBT token is designed to strengthen the security of the rollup infrastructure and to incentivize staking, farming and building of new governance + rollup features.
 
-![rollup](/rollup-economy.jpg)
+![rollup](img/rollup-economy.jpg)
 
 ## 🛠️ **Utility of HBT**
 
@@ -69,4 +69,4 @@ https://github.com/0x-vic
 
 The overview shows a detailed distribution of the HBT token, the process will be facilitated by pre-deployed [Droplet Contracts](Droplets.md), which drip the 0.5% over a fixed period of time towards the assigned wallets and contracts.
 
-![economics](/economics.jpg)
+![economics](img/economics.jpg)

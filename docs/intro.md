@@ -24,6 +24,6 @@ https://0xhabitat.org/app/#habitat-communities
 https://0xhabitat.org/app/#habitat-account
 
 ## **One Pager**
-![0xHabitat__onepager](/onepager.png)
+![0xHabitat__onepager](img/onepager.png)
 
-![banner](/banner.png)
+![banner](img/banner.png)

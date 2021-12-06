@@ -10,7 +10,7 @@ The Habitat ecosystem is build to assure high security of user funds and to ince
 
 As announced on the [0xhabitat.org/token](https://0xhabitat.org/token) website and the tokennomics [blog posts](https://0xhabitat.substack.com/p/hbt-token-design-and-economics-) - we hereby finalise the utility of HBT in Habitat v1.
 
-![img](/v1economy.jpg)
+![img](img/v1economy.jpg)
 
 ## **Staking HBT** 🧬
 Staking on Habitat grants you the right to vote on Habitat’s further development. Stake your tokens on proposals about new features or rollup parameters. In addition, HBT Stakeholders receive operator rewards from the rollup traffic.

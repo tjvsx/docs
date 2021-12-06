@@ -13,7 +13,7 @@ Starting with mainnet launch, governance will focus on controlling the reward st
 
 Members can take part in HBT Governance when they acquire HBT on the Ethereum Mainnet and deposit it on the Habitat Rollup. HBT is converted/wrapped to HBT, which is essentially a staked version with voting power on the rollup governance, given out in a 1:1 ratio.
 
-![img](/v1gov.jpg)
+![img](img/v1gov.jpg)
 
 > Deposits enable Governance Participation
 
@@ -31,7 +31,7 @@ Deployed on Mainnet: https://etherscan.io/address/0x63818D74A71DC141b605204cf83F
   * 10% quorum required
 Deployed on Mainnet: https://etherscan.io/address/0x4de7f3c0aD9EF9E8dDa5A7D19378C11B16d655af
 
-![img](/votingmodules.jpg)
+![img](img/votingmodules.jpg)
 
 **Both initial Voting Modules share the same parameters:**
 
@@ -69,4 +69,4 @@ When HBT holders delegate votes, they assign their voting power to other delegat
 
 Delegation might be necessary to unite voting power and issue proposals, as a minimal HBT Proposer Balance is required to initiate votes.
 
-![minproposerbalance](/minproposerbalance.jpg)
+![minproposerbalance](img/minproposerbalance.jpg)

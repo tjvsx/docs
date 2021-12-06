@@ -25,7 +25,7 @@ The Habitat team is not the only creator building these features. They can be bu
 Crypto and DeFi offer the spirit and ideas to host such a movement of user & builder synergies. Monetization in a bottom-up way.
 
 #### **Feature Farm Economy**
-![img](/feature-farm.jpg)
+![img](img/feature-farm.jpg)
 
 Feature Farms in Habitat v1.5
 In v1.0 HBT holders can propose and vote on new features and the Habitat genesis team will build the highest requested.

@@ -8,7 +8,7 @@ title: 'Exit'
 #### **Request Withdrawal**
 Users can request to leave the rollup when choosing the option "Withdraw":
 
-![img](/withdraw.png)
+![img](img/withdraw.png)
 
 > Withdrawals are requested for each token individually.
 
@@ -17,9 +17,9 @@ When leaving the rollup, some necessary security measures are taken. Withdrawals
 
 A minimum of 7 days is recommended at the moment, so anyone can challenge the recorded history of transactions on the rollup and dispute the outcomes if necessary. In case of disputes, up to 3 weeks apply for full resolution of the challenge.
 
-![img](/pending.png)
+![img](img/pending.png)
 
 #### **Perform the Exit**
 Once the 7 days passed, the user can exit the funds to Ethereum Mainnet:
 
-![img](/exit.png)
+![img](img/exit.png)
