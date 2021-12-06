@@ -8,13 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Habitat Docs',
   tagline: '',
-  url: 'https://github.com/0xHabitat/docs',
+  url: 'https://docs.0xhabitat.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: '0xHabitat', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
+
+  plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
 
   presets: [
     [
@@ -25,7 +27,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/0xhabitat/docs',
+          editUrl: 'https://github.com/0xHabitat/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,7 +56,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/0xhabitat',
+            href: 'https://github.com/0xHabitat',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,7 +83,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discord.gg/4Cu6vBZhDp',
+                href: 'https://discord.com/invite/Pqdj73UTt6',
               },
               {
                 label: 'Telegram',
@@ -94,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/0xhabitat/habitat',
+                href: 'https://github.com/0xHabitat/habitat',
               },
             ],
           },

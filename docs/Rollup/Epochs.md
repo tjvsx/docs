@@ -5,8 +5,8 @@ title: 'Reward Pool Addresses'
 
 # Habitat Epoch Reward Pool Addresses
 
-You can check the current epoch in your [account page](https://0xhabitat.org/app/#habitat-account) under "Rollup Rewards". 
-<img src="https://user-images.githubusercontent.com/45236782/133755795-2b40a3e6-fb07-4d33-a971-82ea7776d196.png" alt="drawing" width="600"/>
+You can check the current epoch in your [account page](https://0xhabitat.org/app/#habitat-account) under "Rollup Rewards".
+<img src="/epochs.png" alt="drawing" width="600"/>
 
 **Epoch #: address**
 

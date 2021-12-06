@@ -11,7 +11,7 @@ __
 * **GitHub** // https://github.com/0xHabitat
 * **Twitter** // https://twitter.com/0xHabitat
 * **Blog** // https://0xhabitat.substack.com/
-* **Discord Server** // https://discord.gg/4Cu6vBZhDp
+* **Discord Server** // https://discord.com/invite/Pqdj73UTt6
 * **Habitat DAO China** // https://t.me/Habitat_China
 
 ## **Mainnet App** 🌈
@@ -24,6 +24,6 @@ https://0xhabitat.org/app/#habitat-communities
 https://0xhabitat.org/app/#habitat-account
 
 ## **One Pager**
-[![0xHabitat__onepager](https://user-images.githubusercontent.com/45236782/132473382-bc942651-d1ae-4a09-88ec-d6a5a1c1c8c6.png)](https://user-images.githubusercontent.com/45236782/132473382-bc942651-d1ae-4a09-88ec-d6a5a1c1c8c6.png)
+![0xHabitat__onepager](/onepager.png)
 
 ![banner](/banner.png)
