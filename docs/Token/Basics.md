@@ -3,70 +3,28 @@ sidebar_position: 1
 title: 'Basics'
 ---
 
-# Token Basics 📊
+# Token Basics
 
-##### **Habitat is the first rollup that is governed and grown by its people and their communities.**
+#### Multi-Sig Incident
 
-Therefore, the HBT token is designed to strengthen the security of the rollup infrastructure and to incentivize staking, farming and building of new governance + rollup features.
+On 1st of December 2021 the Team Multi-Sig was drained by an outside attacker. As a result the liquidity on Uniswap and Sushiswap was removed by the attacker and the project and all token-holders suffered a loss. Read all details about the incident [here](https://0xhabitat.substack.com/p/exploit2). A new token is needed to leave **$HBT** behind and continue looking forward. We want to learn from the setup we had and prevent such attack vectors altogether.
 
-![rollup](img/rollup-economy.jpg)
+#### Relaunch of new Token
 
-## 🛠️ **Utility of HBT**
+A new token to govern the community and the Habitat DAO will be released in the beginning of 2022. The distribution and token economics have been outlined in one of the lastest blog posts. Read the full post about the $HABITAT token [here](https://0xhabitat.substack.com/p/endofyear).
 
-#### **1. Feature Farming 🌱**
-Communities use HBT to signal the most needed features and gov tools. Implementation of community-led upgrades increases the value of the Habitat platform and HBT.
+#### Tokenholder Snapshot 
 
-#### **2. Ecosystem Currency 🌺**
-Habitat is based on a circular economy. Builders, stakers, and active voters can earn while users and communities pay in HBT for rollup operator fees and new features.
+As discussed in the Habitat social channels the Habitat team has taken a snapshot right before the multi-sig incident.
 
-#### **3. Rollup Governance 🏗**
-When HBT and ETH are staked you earn the right to vote on important rollup design decisions. This can include challenge times, block finalizations, operator fees, and many more rollup-specific governance parameters.
+**[Snapshot Block - Etherscan](https://etherscan.io/block/13721615)**
 
-#### **4. Operator Rewards 💸**
-All the rewards and profits of the rollup go towards the liquidity providers and HBT-ETH stakers on Habitat. Communities should not only benefit by low transaction fees or fast confirmation times but also by the very own profit Habitat generates.
+**Search for your address and final balance on the spreadsheet: [Excel Table - read-only Link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuiEDeHK7J8mb7iUoxrWxcjAxNJJE5CPUr4em0-3Y29zeioxRIBAH-u9dEDGQrZ_-R5Ij1VjdrD0sy/pubhtml)**
 
-## 🫐 **Token Supply**
+All token holders will get to claim their fair share of tokens in the upcoming token relaunch. All shareholders will be taking into consideration (liquidity providers, long-term holders, rollup users, HBT holders)
 
-**The total supply of HBT is capped at 100.000.000 Habitat Token**
+Some shareholder groups will get a bonus for using the app, by providing liquidity or by being a community member before the Mainnet launch. If you fall into multiple groups multiple bonuses are applied:
 
-**84% = 84.000.000 HBT** are fully locked and can only be unlocked via governance once the bootstrapping phase ends.
+![img](https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58416543-bc83-477d-87cb-2c5396f1b4cd_394x189.png)
 
-To ensure high security and no initial drain or rug pull only **0.5%** can be unlocked per week. When no proposal is passed this rate will accumulate to allow bigger funding opportunities.
-
-#### **Mainnet Token Contract**
-* https://etherscan.io/token/0x0ace32f6e87ac1457a5385f8eb0208f37263b415
-
-### **Bootstrap Phase**
-
-An initial supply of **2.000.000** was released during the bootstrapping phase of Habitat, which started on **10th March 2021**.
-
-During this fair launch, everyone could directly swap any ERC-20 token to HBT and the swap happened at a fixed rate of **0.25 DAI = 1 HBT**.
-
-#### **Launch Swap Contract aka Token Turner**
-* https://etherscan.io/address/0x51f93c014a185c2ca4877f7d97f0bd6fc7eff5de
-
-#### **IDO & Liquidity**
-There will be pre-defined proposals to unlock HBT for IDO and liquidity providers - the community is making the last call whether or not to initiate those proposals.
-
-## 🌞 **Genesis Team**
-
-The genesis team are vesting their total cut of **9% over 3 years.**
-
-For future hires, operator fees and marketing/communication an additional **5% will be vested.**
-
-All funds will be dropped to and send out by a multi-signature wallet.
-
-https://github.com/pinkiebell
-* [Deployer Address](https://etherscan.io/address/0xDF708717070981a8097912318C722F19eEFb3BEf)
-
-https://github.com/MaxKuck
-* [Team Address #1](https://etherscan.io/address/0x0B5A2A20ed3773aA33274F6684E97810338c09cB)
-
-https://github.com/0x-vic
-* [Team Address #2](https://etherscan.io/address/0x3336318C7Cd22D0A32477235637F779E7071459B)
-
-## 📡 **Token Distribution**
-
-The overview shows a detailed distribution of the HBT token, the process will be facilitated by pre-deployed [Droplet Contracts](Droplets.md), which drip the 0.5% over a fixed period of time towards the assigned wallets and contracts.
-
-![economics](img/economics.jpg)
+**Thank you for your patience, we are looking forward to this next chapter with our upcoming MVP launch of Habitat v2.**
