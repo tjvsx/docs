@@ -5,7 +5,6 @@ slug: /
 ---
 
 # Habitat Docs 🌱
-__
 ## **Official Channels** 📣
 * **Website** // https://0xhabitat.org/
 * **GitHub** // https://github.com/0xHabitat
