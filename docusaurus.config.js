@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Habitat Docs',
-  tagline: 'Scaling communities with Rollup technology',
-  url: 'https://docs.0xhabitat.org',
+  title: 'Join the Habitat🏕',
+  tagline: '',
+  url: 'https://github.com/0xHabitat/docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/docs/intro',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/0xHabitat/docs',
@@ -70,7 +70,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/',
+                to: '/docs/intro',
               },
             ],
           },
