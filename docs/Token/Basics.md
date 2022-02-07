@@ -3,7 +3,7 @@ sidebar_position: 1
 title: 'Basics'
 ---
 
-# Token Basics
+# 📈 Token Basics
 
 ## Multi-Sig Incident
 
