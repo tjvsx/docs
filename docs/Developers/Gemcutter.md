@@ -17,7 +17,7 @@ Our gemcutter framework provides a simple way for you to compose a diamond in yo
 - Clone another diamond: import a diamond that is already onchain -- ```npx hardhat diamond:clone <diamond-address>``` and ```npx hardhat diamond:deploy```
 
 ### The diamond.json
-- When you deploy a diamond or clone an existing diamond, by default it will add your diamond and it's facets into diamond.json, unless stated otherwise with the --o flag. 
+- When you deploy a diamond or clone an existing diamond, by default it will add your diamond and it's facets into diamond.json, unless declared otherwise with the --o param. 
 
 ### Available Tasks
 
