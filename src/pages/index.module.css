@@ -3,21 +3,59 @@
  * and scoped locally.
  */
 
-.heroBanner {
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* @notice Landing page body */
+/* banner (hero) section */
+.section__banner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
-
 @media screen and (max-width: 966px) {
-  .heroBanner {
+  .section__banner {
     padding: 2rem;
   }
 }
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* about section */
+.section__about {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
+}
+/* diamond section */
+.section__diamond {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
+}
+/* token section */
+.section__token {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
+}
+/* roadmap section */
+.section__roadmap {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
+}
+/* tech section */
+.section__tech {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
+}
+/* social section */
+.section__socials {
+  display:block;
+  height: 20em;
+  border: 1px blueviolet solid;
 }
