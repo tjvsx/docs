@@ -77,10 +77,10 @@ const config = {
           height: 32,
         },
         items: [
-          {
-            type: 'search',
-            position: 'right',
-          },
+          // {
+          //   type: 'search',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/0xHabitat',
             // label: 'GitHub',
