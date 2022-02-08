@@ -20,7 +20,7 @@ Gemcutter is a set of hardhat tasks built to provide a simple way to develop and
 
 
 ## Sourcify verification
-Gemcutter works with Sourcify, all the deployed facet are going to be verified on Sourcify.
+Gemcutter works with Sourcify, all the deployed facets are going to be verified on Sourcify.
 
 ## The Diamond file
 

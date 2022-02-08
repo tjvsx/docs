@@ -31,7 +31,7 @@ In order to work with Gemcutter you must have a Diamond deployed. Deploying a ba
 $ npx hardhat diamond:deploy --new
 ```
 
-It will create a **diamond.json** file containing DiamondInit, DiamondCutFacet, DiamondLoupeFacet, OwnershipFacet. And deploy that Diamond to the specified chain (see hardhat docs to see how to specify networks).
+It will create a **diamond.json** file containing DiamondInit, DiamondCutFacet, DiamondLoupeFacet, OwnershipFacet. And deploy that Diamond to the specified chain (see hardhat docs to understand how to specify networks).
 
 ### Clone a Diamond
 
