@@ -13,15 +13,15 @@ The framework is just a proof of concept, this documentation contains more featu
 ### Useful things
 
 * [Repository](https://github.com/0xHabitat/gemcutter)
-* cite marcocastignoli#2857 or tjvs#7114 on the [official diamond discord](https://discord.com/invite/kQewPw2)
+* cite marcocastignoli#2857 and/or tjvs#7114 on the [official diamond discord](https://discord.com/invite/kQewPw2)
 
 ## EIP-2535 Diamonds simplified
 
-Gemcutter is a set of hardhat tasks built to provide a simple way to develop and deploy EIP-2535 Diamonds. It uses a file to sync the local changes to the blockchain.
+Gemcutter is a set of [Hardhat](https://hardhat.org/) tasks built to provide a simple way to develop and deploy EIP-2535 Diamonds. It uses a file to sync the local changes to the blockchain.
 
 
 ## Sourcify verification
-Gemcutter works with Sourcify, all the deployed facets are going to be verified on Sourcify.
+Gemcutter works with [Sourcify](https://sourcify.dev/), all the deployed facets are going to be verified on Sourcify.
 
 ## The Diamond file
 
