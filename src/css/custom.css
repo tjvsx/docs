@@ -1,10 +1,8 @@
-/* stylelint-disable docusaurus/copyright-header */
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-/* @import '/node_modules/@docusaurus/theme-classic/src/theme/Toggle/styles.module.css' */
 
 /* You can override the default Infima variables here. */
 :root {
@@ -29,30 +27,29 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* @notice toggle */
-div[class*="toggle"] {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-div[class*="toggleTrack_"] {
-  background: none !important;
+/* Navbar Searchbar -- @dev see const */
+button[class*="DetachedSearchButton"] {
+  background: none;
+  border-radius: 2em;
+  width: 8em;
+  height: 2.2em;
+  margin-right: 1em;
   border: 1px solid black;
 }
-[data-theme='dark'] div[class*="toggleTrack_"] {
-  background: none !important;
+html[data-theme=dark] button[class*="DetachedSearchButton"] {
+  background: none;
   border: 1px solid white;
 }
-
-div[class*="toggleTrackThumb"] {
-  background: url('/img/emoji-sunrise-over-mountains.png') no-repeat;
-  background-size: contain;
+div[class*="DetachedSearchButtonPlaceholder"], 
+svg[class*="SubmitIcon"] {
+  color:black;
 }
-[data-theme='dark'] div[class*="toggleTrackThumb"] {
-  background: url('/img/emoji-national-park.png') no-repeat;
-  background-size: contain;
+html[data-theme=dark] div[class*="DetachedSearchButtonPlaceholder"], 
+html[data-theme=dark] svg[class*="SubmitIcon"] {
+  color:white;
 }
 
-/* @notice Social Icons */
+/* @notice Navbar Social Icons */
 /* github */
 .header-github-link:hover {
   opacity: 0.6;
@@ -96,33 +93,40 @@ html[data-theme=dark] .header-discord-link:before {
   background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg width='100%25' height='100%25' viewBox='0 0 250 250' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' xmlns:serif='http://www.serif.com/' style='fill-rule:evenodd%3Bclip-rule:evenodd%3Bstroke-linejoin:round%3Bstroke-miterlimit:2%3B'%3E%3Ccircle cx='125' cy='125' r='125' style='fill:none%3B'/%3E%3CclipPath id='_clip1'%3E%3Ccircle cx='125' cy='125' r='125'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23_clip1)'%3E%3Cg%3E%3Cpath d='M98.877 118.906c-8.078 -0 -14.456 7.086 -14.456 15.731c0 8.645 6.519 15.731 14.456 15.731c8.078 0 14.456 -7.086 14.456 -15.731c0.141 -8.645 -6.378 -15.731 -14.456 -15.731Zm51.729 -0c-8.078 -0 -14.456 7.086 -14.456 15.731c0 8.645 6.519 15.731 14.456 15.731c8.078 0 14.456 -7.086 14.456 -15.731c-0 -8.645 -6.378 -15.731 -14.456 -15.731Z' style='fill:%23fff%3Bfill-rule:nonzero%3B'/%3E%3Cpath d='M250 -0l-250 -0l0 250l250 -0l-0 -250Zm-85.222 185.091c0 -0 -5.102 -6.094 -9.354 -11.48c18.566 -5.244 25.652 -16.865 25.652 -16.865c-5.81 3.827 -11.337 6.519 -16.298 8.362c-7.086 2.976 -13.889 4.96 -20.55 6.094c-13.605 2.551 -26.077 1.842 -36.706 -0.142c-8.078 -1.559 -15.023 -3.826 -20.833 -6.094c-3.26 -1.276 -6.803 -2.834 -10.346 -4.819c-0.425 -0.283 -0.851 -0.425 -1.276 -0.708c-0.283 -0.142 -0.425 -0.284 -0.567 -0.425c-2.551 -1.418 -3.968 -2.41 -3.968 -2.41c0 0 6.803 11.338 24.802 16.724c-4.252 5.385 -9.496 11.763 -9.496 11.763c-31.321 -0.992 -43.225 -21.542 -43.225 -21.542c-0 -45.635 20.408 -82.625 20.408 -82.625c20.408 -15.306 39.824 -14.881 39.824 -14.881l1.417 1.701c-25.51 7.369 -37.273 18.566 -37.273 18.566c0 -0 3.118 -1.701 8.362 -4.11c15.164 -6.661 27.211 -8.504 32.171 -8.929c0.85 -0.142 1.559 -0.283 2.409 -0.283c8.645 -1.134 18.424 -1.418 28.628 -0.284c13.464 1.559 27.92 5.527 42.659 13.606c0 -0 -11.196 -10.63 -35.289 -17.999l1.984 -2.268c0 0 19.416 -0.425 39.824 14.881c0 0 20.409 36.99 20.409 82.625c-0 -0 -12.047 20.55 -43.368 21.542Z' style='fill:%23fff%3Bfill-rule:nonzero%3B'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");  
 }
 
-/* Searchbar */
-button[class*="DetachedSearchButton"] {
-  background: none;
-  border-radius: 2em;
-  width: 8em;
-  height: 2.2em;
-  margin-right: 1em;
+/* @notice Navbar day/night toggle */
+div[class*="toggle"] {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+div[class*="toggleTrack_"] {
+  background: none !important;
   border: 1px solid black;
 }
-html[data-theme=dark] button[class*="DetachedSearchButton"] {
-  background: none;
+[data-theme='dark'] div[class*="toggleTrack_"] {
+  background: none !important;
   border: 1px solid white;
 }
-div[class*="DetachedSearchButtonPlaceholder"], 
-svg[class*="SubmitIcon"] {
-  color:black;
+
+div[class*="toggleTrackThumb"] {
+  background: url('/img/emoji-sunrise-over-mountains.png') no-repeat;
+  background-size: contain;
 }
-html[data-theme=dark] div[class*="DetachedSearchButtonPlaceholder"], 
-html[data-theme=dark] svg[class*="SubmitIcon"] {
-  color:white;
+[data-theme='dark'] div[class*="toggleTrackThumb"] {
+  background: url('/img/emoji-national-park.png') no-repeat;
+  background-size: contain;
 }
 
-/* Banner */
-.container {
-  height:100%;
+
+/* .background {
+  background: linear-gradient(to left, rgb(175, 178, 238), aquamarine);
+} */
+
+/* BannerSection -- hero elements */
+.hero__container {
   position: relative;
-  max-width: 90%;
+  width: 95%;
+  height: 95%;
+  /* border: 1px solid green; */
 }
 .hero.hero--primary {
   background: url('/img/banner-day.png') no-repeat;
@@ -147,7 +151,17 @@ html[data-theme=dark] svg[class*="SubmitIcon"] {
   line-height: 1em;
 }
 
+
+
+
+
+
+
+
+
+/* Social Links */
 .button.button--secondary.button--lg {
+  margin-top: 20em;
   background: #FBDC60;
   border:black 1px solid;
   border-radius: 2em;
@@ -165,7 +179,47 @@ html[data-theme=dark] svg[class*="SubmitIcon"] {
 
 
 
+@keyframes loop {
+  0% {
+    transform-origin: 0% 0%;
+  }
+  25%{
+    transform-origin: 25% 50%;
+  }
+  50% {
+    transform-origin: 50% 70%;
+  }
+  75% {
+    transform-origin: 30% 100%;
+  }
+  100% {
+    transform-origin: 0% 100%;
+  }
+}
 
+/* .background__container {
+  position:absolute;
+  height:500em;
+} */
+/* .background__wrapper {
+  position:absolute;
+  height:100%;
+} */
+
+.background__animation {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(3) translateZ(0);
+  animation: loop 30s ease-in-out alternate infinite;
+  will-change: transform;
+  filter: brightness(.5, 1);
+}
 
 /* .footer {
   z-index: 0;
