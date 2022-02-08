@@ -4,7 +4,7 @@ title: 'Getting Started'
 ---
 
 :::tip DO NOT BE LAZY
-Please read the [About](/Developers/Gemcutter/About) section before continuing here, otherwise you will encounter problems.
+Please read the [About](/Developers/Gemcutter) section before continuing here, otherwise you will encounter problems.
 :::
 
 
