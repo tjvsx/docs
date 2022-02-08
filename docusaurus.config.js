@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Habitat Docs',
-  tagline: 'Scaling communities with Rollup technology',
-  url: 'https://docs.0xhabitat.org',
+  title: 'Build and Scale your DAO',
+  tagline: 'Start your organization on Optimism',
+  url: 'https://github.com/0xHabitat/docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,19 @@ const config = {
   organizationName: '0xHabitat', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
-  plugins: [require.resolve('@cmfcmf/docusaurus-search-local')],
+  /**@dev SEARCHBAR DEPRECATED */
+  // plugins: [
+  //   [
+  //     require.resolve("@cmfcmf/docusaurus-search-local"),
+  //     {
+  //       indexDocs: true,
+  //       indexBlog: false,
+  //       indexPages: false,
+  //       language: "en",
+  //       style: undefined,
+  //     },
+  //   ],
+  // ],
 
   presets: [
     [
@@ -24,7 +36,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/', // /docs landingpage controller
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/0xHabitat/docs',
@@ -42,24 +54,55 @@ const config = {
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
-        respectPrefersColorScheme: false,
+        respectPrefersColorScheme: true,
+        switchConfig: {
+          darkIcon: ' ',
+          darkIconStyle: {
+            marginLeft: '2px',
+          },
+          lightIcon: ' ',
+          lightIconStyle: {
+            marginLeft: '1px',
+          },
+        },
       },
       navbar: {
         logo: {
           alt: '🌱 Habitat',
           src: 'img/v2-logo-full.svg',
           srcDark: 'img/v2-logo-full_dark.svg',
-          href: 'https://0xhabitat.org/',
+          href: '/',
           target: '_self',
           width: 200,
           height: 32,
         },
         items: [
           {
-            href: 'https://github.com/0xHabitat',
-            label: 'GitHub',
+            type: 'search',
             position: 'right',
           },
+          {
+            href: 'https://github.com/0xHabitat',
+            // label: 'GitHub',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
+            position: 'right'
+          },
+          {
+            href: 'https://twitter.com/0xhabitat',
+            // label: 'Twitter',
+            className: 'header-twitter-link',
+            'aria-label': 'Twitter posts',
+            position: 'right'
+          },
+          {
+            href: 'https://discord.com/invite/Pqdj73UTt6',
+            // label: 'Discord',
+            className: 'header-discord-link',
+            'aria-label': 'Discord community',
+            position: 'right'
+          },
+
         ],
       },
       footer: {
@@ -70,7 +113,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: '/',
+                to: '/', //docs landingpage controller
               },
             ],
           },
