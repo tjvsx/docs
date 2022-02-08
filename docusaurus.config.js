@@ -52,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'light',
+        // defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
         switchConfig: {
@@ -106,7 +106,6 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
         links: [
           {
             title: 'Docs',
